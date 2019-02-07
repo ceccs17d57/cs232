@@ -1,0 +1,148 @@
+Script started on Thursday 07 February 2019 10:55:27 AM IST
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         music  [01;34mPictures[0m  [01;34mTemplates[0m  vishnu
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m  [01;34mPublic[0m    [01;34mVideos[0m
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ ls -l
+total 44
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:15 examples.desktop
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 10:02 music
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mVideos[0m
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 10:55 vishnu
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ ls -1
+[0m[01;34mDesktop[0m
+[01;34mDocuments[0m
+[01;34mDownloads[0m
+examples.desktop
+music
+[01;34mMusic[0m
+[01;34mPictures[0m
+[01;34mPublic[0m
+[01;34mTemplates[0m
+[01;34mVideos[0m
+vishnu
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ ls -lt
+total 44
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 10:55 vishnu
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 10:02 music
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mDownloads[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mVideos[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:15 examples.desktop
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ ls -ltr
+total 44
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:15 examples.desktop
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [0m[01;34mVideos[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mDownloads[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mDesktop[0m
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 10:02 music
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 10:55 vishnu
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ alias ll='ls-[K -l'
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ ll
+total 44
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [0m[01;34mDesktop[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mDocuments[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mDownloads[0m
+-rw-r--r-- 1 s4d2 s4d2 8980 Feb  7 09:15 examples.desktop
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 10:02 music
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mMusic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mPictures[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mPublic[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mTemplates[0m
+drwxr-xr-x 2 s4d2 s4d2 4096 Feb  7 09:22 [01;34mVideos[0m
+-rw-rw-r-- 1 s4d2 s4d2    0 Feb  7 10:55 vishnu
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ unalias ll
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ ll
+ll: command not found
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ pwd
+/home/s4d2
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cat>aaa.txt
+viu shnu^Z
+[1]+  Stopped                 cat > aaa.txt
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cat aaa.txt 
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cat>aaa.txt
+vishnu
+^Z
+[2]+  Stopped                 cat > aaa.txt
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cat aaa.txt
+vishnu
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cat>bbb.txt
+v
+^Z
+[3]+  Stopped                 cat > bbb.txt
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ paste aaa.txt  bbb.txt 
+vishnu	v
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ grep 'vishnu' aaa.txt
+[01;31m[Kvishnu[m[K
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cd D[K
+.cache/    Desktop/   Downloads/ .local/    Music/     Public/    Videos/
+.config/   Documents/ .gconf/    .mozilla/  Pictures/  Templates/ 
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cd d[KD
+Desktop/   Documents/ Downloads/ 
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ cd Desktop/
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ cp aaa.txt[K[K[K[K[K[K[K[K[K[Kcp ../aaa.txt  ../bbb.txt .
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ rm -r[K[K[K bb[Kbb.txt 
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ls
+aaa.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ mkdir folder
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ls
+aaa.txt  [0m[01;34mfolder[0m
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ rmdir folder/
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ls
+aaa.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ mkdir foldr/folder2 -p
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ls
+aaa.txt  [0m[01;34mfoldr[0m
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ cd[K[Kc[Kls foldr/
+[0m[01;34mfolder2[0m
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ rm -rf[K foldr/folder2/[K[K[K[K[K[K[K[K[K[Ker[K[Kr
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ln -s ../bbb.txt 
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ls
+aaa.txt  [0m[01;36mbbb.txt[0m
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ rm bbb.txt 
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ls
+aaa.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ mv aa[K[K../bbb.txt 
+mv: missing destination file operand after ‘../bbb.txt’
+Try 'mv --help' for more information.
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ is
+is: command not found
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ls
+aaa.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ mv ..[3Plsismv ../bbb.txt .
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ ls
+aaa.txt  bbb.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ cat>c.txt
+a b c d 
+^Z
+[4]+  Stopped                 cat > c.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ cat>d.txt
+1 2 3 4
+a b c d
+^Z
+[5]+  Stopped                 cat > d.txt
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ join c.txt d.txt
+a b c d  b c d
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ exit
+exit
+There are stopped jobs.
+]0;s4d2@ceclab2-Veriton-Series: ~/Desktops4d2@ceclab2-Veriton-Series:~/Desktop$ exit
+exit
+
+Script done on Thursday 07 February 2019 11:44:10 AM IST
