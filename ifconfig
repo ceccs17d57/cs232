@@ -1,0 +1,86 @@
+Script started on Monday 01 April 2019 09:29:30 AM IST
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 10:78:d2:e0:ab:20  
+          inet addr:192.168.0.105  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::1278:d2ff:fee0:ab20/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5210 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:361 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:883523 (883.5 KB)  TX bytes:69091 (69.0 KB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:426 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:426 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:153736 (153.7 KB)  TX bytes:153736 (153.7 KB)
+
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ ifconfin[Kg -a
+eth0      Link encap:Ethernet  HWaddr 10:78:d2:e0:ab:20  
+          inet addr:192.168.0.105  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::1278:d2ff:fee0:ab20/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5289 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:361 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:890338 (890.3 KB)  TX bytes:69091 (69.0 KB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:426 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:426 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:153736 (153.7 KB)  TX bytes:153736 (153.7 KB)
+
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ ifconfig etho[K0
+eth0      Link encap:Ethernet  HWaddr 10:78:d2:e0:ab:20  
+          inet addr:192.168.0.105  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::1278:d2ff:fee0:ab20/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5401 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:361 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:900311 (900.3 KB)  TX bytes:69091 (69.0 KB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ if [Kconfig lo
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:426 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:426 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:153736 (153.7 KB)  TX bytes:153736 (153.7 KB)
+
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo eth0 [K[K[K[K[Kifconfig etho[K0 down
+[sudo] password for cec-lab2: 
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eth0 down[K[K[K[Kup
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eth0 up[K[K192.168.0.105
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ \[Kexit
+exit
+
+Script done on Monday 01 April 2019 09:44:44 AM IST
+Script started on Monday 01 April 2019 09:48:33 AM IST
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfi[8Pexitscript ifconfig[10Pclearsudo ifconfig eth0 up[K[K[K 192.168.0.105
+[sudo] password for cec-lab2: 
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ exit
+exit
+
+Script done on Monday 01 April 2019 09:50:48 AM IST
+Script started on Monday 01 April 2019 10:07:21 AM IST
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+192.168.0.0     *               255.255.255.0   U     1      0        0 eth0
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ exit
+exit
+
+Script done on Monday 01 April 2019 10:08:43 AM IST
