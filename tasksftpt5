@@ -1,0 +1,78 @@
+Script started on Thursday 28 March 2019 09:46:06 AM IST
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ 
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ 
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ sc[Kftp cs17d [K@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d@192.168.0.30's password: 
+Permission denied, please try again.
+
+cs17d@192.168.0.30's password: 
+
+[1]+  Stopped                 sftp cs17d@192.168.0.30
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ sftp cs17d57@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d57@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> pwd
+Remote working directory: /home/cs17d57
+sftp> put -r xyz
+Uploading xyz/ to /home/cs17d57/xyz
+Entering xyz/
+
+xyz/result_no_newline                           0%    0     0.0KB/s   --:-- ETA
+xyz/result_no_newline                         100%   12KB  12.5KB/s   00:00    
+
+xyz/result.txt                                  0%    0     0.0KB/s   --:-- ETA
+xyz/result.txt                                100%   36KB  36.5KB/s   00:00    
+
+xyz/result_one_per_line                         0%    0     0.0KB/s   --:-- ETA
+xyz/result_one_per_line                       100%   12KB  12.5KB/s   00:00    
+Entering xyz/student_details
+
+xyz/student_details/task1.txt                   0%    0     0.0KB/s   --:-- ETA
+xyz/student_details/task1.txt                 100% 1704     1.7KB/s   00:00    
+
+xyz/student_details/s4d_student_details.txt     0%    0     0.0KB/s   --:-- ETA
+xyz/student_details/s4d_student_details.txt   100% 3181     3.1KB/s   00:00    
+
+xyz/student_details/s4d_student_registor_numb 100%    0     0.0KB/s   00:00    
+
+xyz/result_cs_only.txt                          0%    0     0.0KB/s   --:-- ETA
+xyz/result_cs_only.txt                        100%   12KB  12.5KB/s   00:00    
+sftp> ls
+examples.desktop    xyz                 
+sftp> cd xyz
+sftp> ls
+result.txt                result_cs_only.txt        result_no_newline         
+result_one_per_line       student_details           
+sftp> get s
+[Ksftp> get student_details/
+Fetching /home/cs17d57/xyz/student_details/ to student_details
+Cannot download non-regular file: /home/cs17d57/xyz/student_details/
+
+sftp> get -r s
+[Ksftp> get -r student_details/
+Fetching /home/cs17d57/xyz/student_details/ to student_details
+Retrieving /home/cs17d57/xyz/student_details
+
+/home/cs17d57/xyz/student_details/s4d_student   0%    0     0.0KB/s   --:-- ETA
+/home/cs17d57/xyz/student_details/s4d_student 100% 3181     3.1KB/s   00:00    
+
+/home/cs17d57/xyz/student_details/task1.txt     0%    0     0.0KB/s   --:-- ETA
+/home/cs17d57/xyz/student_details/task1.txt   100% 1704     1.7KB/s   00:00    
+sftp> exit
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ exit
+exit
+There are stopped jobs.
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ exit
+exit
+
+Script done on Thursday 28 March 2019 10:00:41 AM IST
