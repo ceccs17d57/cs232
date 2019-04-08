@@ -1,0 +1,56 @@
+Script started on Monday 08 April 2019 11:29:36 AM IST
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ sudo apt-get install vsftpd
+[sudo] password for s4d2: 
+s4d2 is not in the sudoers file.  This incident will be reported.
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ su - cec-lab2
+Password: 
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo gedit /etc/vsftpd.confapt-get install vsftpd
+[sudo] password for cec-lab2: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 647 not upgraded.
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo apt-get install vsftpdgedit /etc/vsftpd.conf
+^C]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.2)
+Name (localhost:cec-lab2): s4d2
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x   10 1007     1007         4096 Mar 29 10:03 Desktop
+drwxr-xr-x    2 1007     1007         4096 Feb 07 09:22 Documents
+drwxr-xr-x    2 1007     1007         4096 Mar 18 11:10 Downloads
+drwxr-xr-x    2 1007     1007         4096 Feb 07 09:22 Music
+drwxr-xr-x    2 1007     1007         4096 Apr 08 10:09 Pictures
+drwxr-xr-x    2 1007     1007         4096 Feb 07 09:22 Public
+drwxr-xr-x    2 1007     1007         4096 Feb 07 09:22 Templates
+drwxr-xr-x    2 1007     1007         4096 Feb 07 09:22 Videos
+-rw-rw-r--    1 1007     1007            7 Feb 07 11:11 aaa.txt
+drwxrwxr-x    2 1007     1007         4096 Mar 14 09:38 ddd
+-rw-r--r--    1 1007     1007         8980 Feb 07 09:15 examples.desktop
+-rw-rw-r--    1 1007     1007            0 Apr 08 11:29 ftp
+-rw-rw-r--    1 1007     1007            0 Mar 18 12:02 lan.txt
+-rw-rw-r--    1 1007     1007            0 Feb 07 10:02 music
+-rw-r--r--    1 1007     1007        37372 Mar 28 09:44 result.txt
+-rw-rw-r--    1 1007     1007         3181 Feb 14 10:01 result1.txt
+drwxrwxr-x    2 1007     1007         4096 Mar 28 09:58 student_details
+-rw-rw-r--    1 1007     1007          612 Mar 28 11:48 task4
+-rw-rw-r--    1 1007     1007         5520 Mar 28 11:59 taskk4
+-rw-rw-r--    1 1007     1007         3195 Mar 28 10:00 tasksftp
+drwxrwxr-x    3 1007     1007         4096 Mar 28 09:28 xyz
+226 Directory send OK.
+ftp> exit
+221 Goodbye.
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ exit
+logout
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ exit
+exit
+
+Script done on Monday 08 April 2019 11:35:22 AM IST
