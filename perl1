@@ -1,0 +1,30 @@
+Script started on Thursday 25 April 2019 09:43:53 AM IST
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ pexitsu - cec-lab2_lab2apt search perlnet-tools[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pcript package[5Plocalhostscript ftpftp localhostexit[Ksu - cec-lab2[2Pdo update[7Pexitssh cs17d57@192.168.0.30cp -r task cs17d57@192.168.0.30:~/test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat ftp[K[3Pexitsu - cec-lab2do apt-get install vsftpd[14P - cec-lab2[2Pdo vsftpd[3Pifconfigsu - cec-lab2do gedit /usr/share/nginx/html/index.html[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C - cec-lab2[Kftp cec-lab2@localhost[4Ps4d2@localhost[7Ppidof vsftpdsu - cec-lab2do apt install vsftpd[13Pcript ftp[5Pclearsudo ifconfig eth0 down[10Pifconfig eth0[2P-a[K[3Pclearifconfigsudo apt updateftp s4d2@192.168.0.224sh cs17d57@192.168.0.30rsync -a result.txt cs17d57@192.168.0.30:~/test[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pssh cs17d57@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kperl -v
+
+This is perl 5, version 18, subversion 2 (v5.18.2) built for x86_64-linux-gnu-thread-multi
+(with 55 registered patches, see perl -V for more detail)
+
+Copyright 1987-2013, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ perl sum.pl
+enter two numbers2 3
+2
+Argument "2 3\n" isn't numeric in addition (+) at sum.pl line 6, <> line 2.
+sum=4
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ perl sum.pl
+enter two numbers5
+7
+sum=12
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ perl hello.pl 
+hello
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ exit
+exit
+
+Script done on Thursday 25 April 2019 10:02:27 AM IST
