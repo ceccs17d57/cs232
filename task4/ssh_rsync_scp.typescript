@@ -1,0 +1,132 @@
+Script started on Thursday 28 March 2019 11:49:09 AM IST
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ exit[K[K[K[Kscript task4[8Pexitssh cs17d36@192.168.0.30[1P@192.168.0.30[1P@192.168.0.305@192.168.0.307@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d57@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:42:35 2019 from 192.168.0.105
+
+$ l pwd
+/home/cs17d57
+$ ls
+examples.desktop  file	test  xyz
+$ rmdir test
+rmdir: failed to remove 'test': Directory not empty
+$ rm-r   m -t r tea sr t
+$ mkdir test
+$ ls
+examples.desktop  file	test  xyz
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ scp student_details/ cs17d57@199[K2.168.0.30:~/test
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d57@192.168.0.30's password: 
+student_details: not a regular file
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ scp student_details/ cs17d57@192.168.0.30:~/test[C student_details/ cs17d57@192.168.0.30:~/test [A
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ [C[C[C[C- student_details/ cs17d57@192.168.0.30:~/test
+t[A
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ [C[C[C[C[Cr student_details/ cs17d57@192.168.0.30:~/test[A
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C student_details/ cs17d57@192.168.0.30:~/test[A
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C
+
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d57@192.168.0.30's password: 
+
+task1.txt                                       0%    0     0.0KB/s   --:-- ETA
+task1.txt                                     100% 1704     1.7KB/s   00:00    
+
+s4d_student_details.txt                         0%    0     0.0KB/s   --:-- ETA
+s4d_student_details.txt                       100% 3181     3.1KB/s   00:00    
+
+s4d_student_registor_number_and_name.txt      100%    0     0.0KB/s   00:00    
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ scp -r  student_details/ cs17d57@192.168.0.30:~/te
+est[A
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ [C[C[C[C[1Pstudent_details/ cs17d57@192.168.0.30:~/test
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Psh cs17d57@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d57@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:47:09 2019 from 192.168.0.105
+
+$ ls
+examples.desktop  file	test  xyz
+$ cd test
+$ ls
+student_details
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ rsync result.txt  cs17d57@192.168.0.30 [K:~/test[C[1@ [1@-[1@a[C result.txt  cs17d57@192.168.0.30:~/test [A
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[A
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d57@192.168.0.30's password: 
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ srsync -a  result.txt  cs17d57@192.168.0.30:~/test 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pssh cs17d57@192.168.0.30
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d57@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thu Mar 28 11:52:19 2019 from 192.168.0.105
+
+$ l pwd
+/home/cs17d57
+$ ls
+examples.desktop  file	test  xyz
+$ cd test
+$ ls
+result.txt  student_details
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d2@ceclab2-Veriton-Series: ~s4d2@ceclab2-Veriton-Series:~$ exit
+exit
+
+Script done on Thursday 28 March 2019 11:59:50 AM IST
