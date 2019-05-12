@@ -6,9 +6,31 @@ s4d2 is not in the sudoers file.  This incident will be reported.
 Password: 
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo gedit /etc/vsftpd.confapt-get install vsftpd
 [sudo] password for cec-lab2: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 vsftpd is already the newest version.
 0 upgraded, 0 newly installed, 0 to remove and 647 not upgraded.
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo apt-get install vsftpdgedit /etc/vsftpd.conf
